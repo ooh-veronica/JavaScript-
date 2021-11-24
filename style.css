@@ -1,0 +1,52 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: gray;
+}
+
+
+
+.form_container {
+    max-width: 440px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid darkslategray
+}
+
+
+
+.fields{
+    width: 340px;
+    padding: 14px 5px;
+    text-align: center;
+    border: 1px solid darkslategray;
+}
+
+
+
+#quiz {
+    display: flex; 
+    flex-direction: column;
+}
+
+.input_surnameUser{
+    display: block;
+}
+
+.input__nameUser{
+    display: block;
+
+}
+
+
+
+.correct {
+    border: 5px solid green;
+}
+
+.incorrect{
+    border:  2px solid red;
+}
